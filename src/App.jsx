@@ -6,7 +6,7 @@ function App() {
   return (
       <div>
         <NavBar />
-        <ItemListContainer greeting= {"Bienvenidos a nuetra tienda online de cervezas artesanales"}/>
+        <ItemListContainer greeting= {"Bienvenidos a nuestra tienda online de cervezas artesanales"}/>
       </div>
   );
 }
