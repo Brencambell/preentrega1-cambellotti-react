@@ -3,7 +3,7 @@ import CartWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
     return (
         <nav>
-            <h3>Craft Beer E-commerce</h3>
+            <h2>Craft Beer</h2>
             <div>
                 <button>IPA's</button>
                 <button>Lagers</button>
