@@ -46,3 +46,25 @@ const NavBar = () => {
 }
 
 export default NavBar;
+
+
+// const Navbar = () => {
+//   return (
+//     <Navbar bg=“light” expand=“lg”>
+// 	<Container>
+// 		<Navbar.Brand href=“#home”>Craft Beer</Navbar.Brand>
+// 		<Navbar.Toogle aria-controls=“basic-nacbar-nav” />
+// 		<Navbar.Collapse id=“basic-navbar-nav”>
+// 			<Nav className=“ms-auto”>
+// 				<Nav.Link href=“#home”>Home</Nav.Link>
+// 				<Nav.Link href=“#ipas”>IPA’s<”/Nav.Link>
+// 				<Nav.Link href=“#lagers”>Lagers</Nav.Link>
+// 				<Nav.Link href=“#darks”>Darks</Nav.Link>
+// 			</Nav>
+// 		</Navbar.Collapse>
+// 	</Container>
+// </Nabvar>
+//   )
+// }
+
+// export default Navbar
