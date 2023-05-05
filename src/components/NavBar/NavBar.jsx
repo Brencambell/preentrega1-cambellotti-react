@@ -19,7 +19,7 @@ import CartWidget from "../CartWidget/CartWidget"
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light p-4">
       <a className="navbar-brand" href="#">Craft Beer E-Commerce</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -46,25 +46,3 @@ const NavBar = () => {
 }
 
 export default NavBar;
-
-
-// const Navbar = () => {
-//   return (
-//     <Navbar bg=“light” expand=“lg”>
-// 	<Container>
-// 		<Navbar.Brand href=“#home”>Craft Beer</Navbar.Brand>
-// 		<Navbar.Toogle aria-controls=“basic-nacbar-nav” />
-// 		<Navbar.Collapse id=“basic-navbar-nav”>
-// 			<Nav className=“ms-auto”>
-// 				<Nav.Link href=“#home”>Home</Nav.Link>
-// 				<Nav.Link href=“#ipas”>IPA’s<”/Nav.Link>
-// 				<Nav.Link href=“#lagers”>Lagers</Nav.Link>
-// 				<Nav.Link href=“#darks”>Darks</Nav.Link>
-// 			</Nav>
-// 		</Navbar.Collapse>
-// 	</Container>
-// </Nabvar>
-//   )
-// }
-
-// export default Navbar
